@@ -55,7 +55,6 @@ class Calculator {
   }
 
   compute() {
-    // Called once user clicks the '=' sign
     // Use updateDisplay with the computed value
     console.log('Computing')
     var answer = 0;
