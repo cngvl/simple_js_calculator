@@ -113,8 +113,6 @@ deleteButton.addEventListener('click', () => {
   calculator.updateDisplay()
 })
 
-
-
 operationButtons.forEach((opbutton) => {
   opbutton.addEventListener('click', () => {
     if (operationExists === false) {
@@ -126,7 +124,6 @@ operationButtons.forEach((opbutton) => {
     }
   })
 })
-
 
 equalsButton.addEventListener('click', () => {
   calculator.compute();
